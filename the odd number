@@ -1,0 +1,11 @@
+
+i=float(input("请输入数字:"))
+while i<=57:
+    x=float(((2**i)-2)/i)
+    a=x%10
+    if a%2==0 or a==1:
+        print(i,x,"yes")
+    else:
+        print("no")
+    i=i+1
+
